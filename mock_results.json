@@ -1,0 +1,58 @@
+{
+    "main_summary_text": "Process Optimization Results Summary",
+    "top_summary_text": "Top 3 Variables Contributing to KPI Improvement",
+    "top_impact": {
+        "Temperature": 0.45,
+        "Pressure": 0.30,
+        "Flow Rate": 0.25
+    },
+    "top_variables": {
+        "Temperature": {"value": 85, "unit": "°C"},
+        "Pressure": {"value": 2.5, "unit": "bar"},
+        "Flow Rate": {"value": 100, "unit": "L/min"}
+    },
+    "impact_summary_text": "Variable Impact Analysis",
+    "setpoint_impact_summary": {
+        "Temperature": {"impact": "High", "confidence": 0.95},
+        "Pressure": {"impact": "Medium", "confidence": 0.85},
+        "Flow Rate": {"impact": "Medium", "confidence": 0.80}
+    },
+    "condition_impact_summary": {
+        "Ambient Temperature": {"impact": "Low", "confidence": 0.70},
+        "Humidity": {"impact": "Low", "confidence": 0.65}
+    },
+    "simulated_summary": {
+        "simulated_data": [
+            {
+                "scenario": 1,
+                "equipment": "Reactor A",
+                "variables": {
+                    "Temperature": 85,
+                    "Pressure": 2.5,
+                    "Flow Rate": 100
+                },
+                "kpi_value": 95
+            },
+            {
+                "scenario": 2,
+                "equipment": "Reactor A",
+                "variables": {
+                    "Temperature": 80,
+                    "Pressure": 2.0,
+                    "Flow Rate": 90
+                },
+                "kpi_value": 88
+            },
+            {
+                "scenario": 3,
+                "equipment": "Reactor A",
+                "variables": {
+                    "Temperature": 90,
+                    "Pressure": 3.0,
+                    "Flow Rate": 110
+                },
+                "kpi_value": 92
+            }
+        ]
+    }
+}
